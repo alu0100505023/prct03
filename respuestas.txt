@@ -1,0 +1,77 @@
+
+21.
+"\t\n" interpreta los caracteres mientras que ’\t\n’ muestre los caracteres \t\n
+22.
+%q funciona como " ". %q{’a’ ’b’ ’c’} muestra la cadena "'a' 'a' 'c'".
+23.
+%Q funciona como ' '. %Q{"a" "b" "c"} muestra la cadena "\"a\" \"b\" \"c\"" interpretando a b c como caracteres especiales.
+24.
+En c quedaria la cadena unida entre "--#{a}--" y "--#{b}--" mas un salto de linea despues de cada una de ellas. #{a} y #{b} devolverian las variables en la cadena, en este caso 4 y 2.
+25.
+Funcionaria como la respuesta anterior, solo que en vez de mostar las variables de a y b, devuelve en la cadena \#{a} y \#{b} porque los considera caracteres especiales.
+26.
+s[0,2] muestra "he"
+s[-1,1] muestra "o"
+s[0,10] muestra "hello"
+27.
+"hello world"
+28.
+"..."
+29
+Devuelve la cadena "2 2 2 "
+30
+Va dividiendo la cadena por el espacio "this" "is" "a" "test".
+31
+divide \t y \n como caracteres.
+32
+divide \t y \n como caracteres especiales.
+33
+Tres posiciones rellenadas con vacio.
+34
+Tres posiciones rellenadas con 0
+35.
+El array anteriormente creado en x, [[1,2],[3,4]].
+36.
+[0,2,4] Va sumando a i 2 valores.
+37.
+a[1,1] ==> ["b"]
+a[-2,2] ==> ["d", "e"]
+a[0..2] ==>  ["a", "b", "c"]
+a[0...1] ==> ["a"]
+a[-2..-1] ==>["d", "e"]
+
+38.
+... 
+["A,B", "c", "d", "e"]
+...
+["A,B", "c", "C", "D", "E"]
+...
+[1, 2, 3, "A,B", "c", "C", "D", "E"]
+...
+[3, "A,B", "c", "C", "D", "E"]
+...
+[3, "A,B", "c", "C", "D", "Z"]
+...
+[3, "A,B", "c", "C"]
+
+39.
+[1, 2, 3]
+...
+[1, 2, 3, 4, 5]
+...
+[1, 2, 3, 4, 5, [6, 7, 8]]
+...
+Error.
+TypeError: can't convert Fixnum into Array
+
+
+
+
+
+
+
+
+
+
+
+
